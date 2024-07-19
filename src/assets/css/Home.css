@@ -1,0 +1,22 @@
+.home-page{
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page-logo{
+    width: 35%;
+}
+
+/* ↓↓↓↓ media query - tamaños 1200 / 800 / 650 px ↓↓↓↓ */
+
+@media screen and (max-width: 800px){
+    .home-page-logo{
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .home-page-logo{
+        width: 65%;
+    }
+}

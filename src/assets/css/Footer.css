@@ -1,0 +1,10 @@
+.app-footer{
+    background-color: black;
+    justify-content: center;
+    z-index: 1;
+    height: 5vh;
+}
+
+.app-footer-txt{
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+.about-page{
+    display: block;
+}
+
+.presentation{
+    display:flex;
+    justify-content: center;
+    padding-right: 2vh;
+    padding-left: 2vh;
+}
+
+.presentation-title{
+    color: white;
+    font-weight: bold;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+
+.presentation-txt-words{
+    color: blanchedalmond;
+    font-style: italic;
+}
+
+.presentation-txt-name{
+    color: grey;
+    font-style: italic;
+    padding-bottom: 10vh;
+    justify-content: right !important;
+}
+
+.description-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+/* ↓↓↓↓ media query - tamaños 1200 / 800 / 650 px ↓↓↓↓ */
+
+@media screen and (max-width:800px){
+    .presentation{
+        padding-right: 1vh;
+        padding-left: 1vh;
+    }
+    
+    .presentation-title{
+        padding-top: 2.5vh;
+        padding-bottom: 5vh;
+    }
+    
+    .presentation-txt-name{
+        justify-content: center !important;
+    }
+}
