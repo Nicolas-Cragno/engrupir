@@ -1,0 +1,14 @@
+.ofert-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.ofert-img{
+    width: 90%;
+}
+.ofert-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 1vh;
+}

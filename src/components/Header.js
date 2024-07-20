@@ -12,7 +12,7 @@ export default function Header() {
           <Row>
             <Col md={6} className='app-header-left'>
               <Link to='/'>
-                <img src={Logo} className='app-header-logo'></img>
+                <img src={Logo} alt='' className='app-header-logo'></img>
               </Link>
             </Col>
             <Col md={6} className='app-header-right'>

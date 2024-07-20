@@ -1,0 +1,42 @@
+
+.contact-page{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 90vh;
+}
+
+.contact-page-logo{
+    width: 50vh;
+}
+
+.contactitem-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactitem-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactitem-links-box{
+    padding: 4vh;
+    text-decoration: none;
+    color: white;
+}
+
+.contactitem-links-txt:hover{
+    background-color: white;
+    padding-right: 2vh;
+    color: black;
+    border-radius: 5%;
+}
+
+.contactitem-img{
+    width: 10vh;
+    padding: 2vh;
+}

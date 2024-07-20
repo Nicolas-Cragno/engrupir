@@ -35,7 +35,7 @@
 }
 
 .item-title{
-    font-weight: bolder;
+    font-weight: bold;
     /*
     display: flex;
     justify-content: center;     para el media */
@@ -56,7 +56,7 @@
     text-decoration: none;
     color: white;
 }
-
+/*
 .item-txt{
     font-style: italic;
 }
@@ -64,3 +64,4 @@
 .item-btn{
     width: 15vh;
 }
+*/

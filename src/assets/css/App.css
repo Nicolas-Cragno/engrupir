@@ -1,4 +1,10 @@
 /* ↓↓↓↓ Estilos generales ↓↓↓↓ */
+.app{
+    font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 .page{
     display:flex;
     z-index: 89;
